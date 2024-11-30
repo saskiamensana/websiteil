@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 1250px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 213, 220);
+}
+
+
+ul {
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px  0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(254, 213, 243);
+    height: 60px;
+    width:100%;
+}
+
+ul li {
+    position: relative;
+    height: 60px;
+}
+
+ul li a {
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+ul a:hover {
+    background-color: rgb(255, 232, 255);
+    size: 1280px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    background-color: rgb(255, 223, 252);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+div.footer{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+}
+div.footer img {
+    width: 1280px;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(253, 227, 231);
+    position: relative;
+}
+
+.column{
+    padding: 0px 0px;
+}
+
+.column.side{
+    margin: 0px 0px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.column.middle{
+    margin: 30px 20px;
+    width: 78%;
+    display: grid;
+    float: right;
+    position: relative;
+}
